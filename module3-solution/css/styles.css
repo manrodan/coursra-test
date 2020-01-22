@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: black;
-  background-color: #fefbd8;
+  background-color:#fefbd8;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -12,7 +12,7 @@ h2{
 }
 
 .container{
-  background-color: #fefbd8;
+  background-color: gray;
   margin: 0px 70px 0px 70px;
 }
 
@@ -61,7 +61,7 @@ h2{
   text-align: center;
 }
 #nav-list a:hover {
-  background: #fefbd8;
+  background: #E7E7E7;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -77,7 +77,7 @@ h2{
 }
 
 .navbar-default .navbar-toggle .icon-bar {
- background-color: #fefbd8;
+ background-color: black;
 }
 
 .navbar-header button.navbar-toggle {
@@ -85,8 +85,8 @@ h2{
   margin-top: -30px;
 }
 .navbar-default .navbar-toggle :hover{
- background-color: #fefbd8;
- color:black;
+ background-color: white;
+ color:white;
 }
 /* END HEADER */
 
