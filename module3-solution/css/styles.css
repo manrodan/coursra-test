@@ -12,7 +12,7 @@ h2{
 }
 
 .container{
-  background-color: #92a8d1;
+  background-color: #fefbd8;
   margin: 0px 70px 0px 70px;
 }
 
@@ -29,7 +29,7 @@ h2{
 }
 /** HEADER **/
 #header-nav {
-  background-color: #92a8d1;
+  background-color: #fefbd8;
   border-radius: 0;
   border: 3px solid white;
 }
@@ -39,7 +39,7 @@ h2{
 }
 .navbar-brand h1 { /* name */
   font-family:serif;
-  color: #92a8d1;
+  color: #fefbd8;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
@@ -61,7 +61,7 @@ h2{
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #fefbd8;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -77,7 +77,7 @@ h2{
 }
 
 .navbar-default .navbar-toggle .icon-bar {
- background-color: #92a8d1;
+ background-color: #fefbd8;
 }
 
 .navbar-header button.navbar-toggle {
@@ -85,7 +85,7 @@ h2{
   margin-top: -30px;
 }
 .navbar-default .navbar-toggle :hover{
- background-color: white;
+ background-color: #fefbd8;
  color:white;
 }
 /* END HEADER */
