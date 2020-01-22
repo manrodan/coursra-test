@@ -12,7 +12,7 @@ h2{
 }
 
 .container{
-  background-color: gray;
+  background-color: blue;
   margin: 0px 70px 0px 70px;
 }
 
@@ -29,9 +29,9 @@ h2{
 }
 /** HEADER **/
 #header-nav {
-  background-color: gray;
+  background-color: blue;
   border-radius: 0;
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
 .navbar-brand {
