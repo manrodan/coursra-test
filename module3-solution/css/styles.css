@@ -12,7 +12,7 @@ h2{
 }
 
 .container{
-  background-color: blue;
+  background-color: #92a8d1;
   margin: 0px 70px 0px 70px;
 }
 
@@ -29,7 +29,7 @@ h2{
 }
 /** HEADER **/
 #header-nav {
-  background-color: blue;
+  background-color: #92a8d1;
   border-radius: 0;
   border: 3px solid white;
 }
@@ -39,7 +39,7 @@ h2{
 }
 .navbar-brand h1 { /* name */
   font-family:serif;
-  color: blue;
+  color: #92a8d1;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
@@ -77,7 +77,7 @@ h2{
 }
 
 .navbar-default .navbar-toggle .icon-bar {
- background-color: blue;
+ background-color: #92a8d1;
 }
 
 .navbar-header button.navbar-toggle {
