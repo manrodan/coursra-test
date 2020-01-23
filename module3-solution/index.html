@@ -1,68 +1,98 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Food LLC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  </head>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<title>Module 3 Solution</title>
+</head>
+
 <body>
-  
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Food, LLC</h1></a>
-          </div>
+	<header class="nav-header">
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<p class="nav-brand">Food, LLC</p>
+					</div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-        <br class="hidden-xs">Chicken</a>
-            </li>
-            <li>
-              <a href="menu-categories.html">
-              <br class="hidden-xs"> Beef </a>
-            </li>
-            <li>
-              <a href="menu-categories.html">
-           <br class="hidden-xs"> Sushi </a>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-  </header>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
 
-<h2> Our Menu </h2>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+						<li class="text-center">
+							<a href="#Chicken-div">
+								<p class="item">Chicken</p>
+							</a>
+							<hr class="visible-xs">
+						</li>
+						<li class="text-center biryani-item">
+							<a href="#Beef-div">
+								<p class="item">Beef</p>
+							</a>
+							<hr class="visible-xs">
+						</li>
+						<li class="text-center chingri-item">
+							<a href="#Sushi-div">
+								<p class="item">Sushi</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
 
-  <div id="main-content" class="container">
-      <h3> Chicken</h3>
-      <div> English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.
+	<h1 class="text-center">Our Menu</h1>
 
-    </div><!-- End of #home-tiles -->
-  </div><!-- End of #main-content -->
+	<div class="row container container-fluid">
+		<div class="col-md-12 col-sm-12 col-xs-12" id="Chicken-div">
+			<section>
+				<div id="Chicken">
+					Chicken
+				</div>
+				<p>
+					English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.
 
+					<p>
+			</section>
+		</div>
+		<div class="col-md-12 col-sm-12 col-xs-12" id="Beef-div">
+			<section>
+				<div id="Beef">
+					Beef
+				</div>
+				<p>
+					English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.
+				</p>
+			</section>
+		</div>
+		<div class="col-md-12 col-sm-12 col-xs-12" id="Sushi-div">
+			<section>
+				<div id="Sushi">
+					Sushi
+				</div>
+				<p>
+					English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.
 
+				</p>
+			</section>
+		</div>
+	</div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
-</html>
 
+</html>
